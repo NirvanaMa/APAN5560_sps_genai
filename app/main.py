@@ -24,7 +24,7 @@ class TextGenerationRequest(BaseModel):
     start_word: Optional[str] = Field(default="<s>")
     length: int = Field(ge=1, le=50)
 
-spacy_embedder = SpaCyEmbedder("en_core_web_md")  # you installed this
+spacy_embedder = SpaCyEmbedder("en_core_web_lg")  # you installed this
 
 class SpaCyEmbedRequest(BaseModel):
     word: str = Field(..., description="Word to embed with spaCy vectors")
