@@ -2,4 +2,4 @@
 
 ## Author: Siliang Ma
 
-Assignment 1: Coding Environment Setup and Simple API Implementation is updated ** in app folder**
+Assignment 1: Coding Environment Setup and Simple API Implementation is updated in **app folder**
