@@ -1,0 +1,16 @@
+[project]
+name = "assignment2-cifar10"
+version = "0.1.0"
+description = "CIFAR-10 classifier training with helper_lib"
+authors = [
+  { name = "Siliang Ma" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+  "torch",
+  "torchvision",
+  "matplotlib",
+]
+
+[tool.uv]
