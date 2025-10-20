@@ -2,15 +2,17 @@
 
 ## Author Siliang Ma
 
-- Code to run Assignment 1:  
+## The final version of assignment2 is in the Assignment2 branch linked below:  
+https://github.com/NirvanaMa/APAN5560_sps_genai/tree/Assignment2
+
+
+
+- Code to run Assignment 1:
+```bash  
 cd ~/Desktop/sps_genai/assignment1  
 uv sync  
 uv run python main.py  
-
+```
   
-- Code to run Assignment 2:  
-cd ~/Desktop/sps_genai/assignment2
-uv sync  
-uv run python train_cnn64.py  
-uv run python test_cnn64.py  
+
  
