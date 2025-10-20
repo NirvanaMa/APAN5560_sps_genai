@@ -11,7 +11,8 @@ git clone --branch Assignment2 --single-branch https://github.com/NirvanaMa/APAN
 ## Author: Siliang Ma
    
 Code to run Assignment 2:  (By Docker)  
-The model have uploaded and saved in checkpoints/cnn64_cifar10.pth
+
+The model have uploaded and saved in checkpoints/cnn64_cifar10.pth, model are ready to run without training.
   
 * For manully train the model:
 ```bash
