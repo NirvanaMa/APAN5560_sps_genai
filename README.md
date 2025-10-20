@@ -1,5 +1,10 @@
 # Assignment 1
 
+Get clone code:  
+```bash
+git clone --branch Assignment1 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
+```
+
 ## Author Siliang Ma
    
 - Code to run Assignment 1:  
