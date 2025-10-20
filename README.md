@@ -3,7 +3,7 @@
 This project trains and deploys a Convolutional Neural Network (CNN) on the CIFAR-10 dataset.  
 The model is first trained locally using PyTorch, then packaged with FastAPI in a Docker container for inference.
 
-## Author Siliang Ma
+## Author: Siliang Ma
    
 - Code to run Assignment 2:  (Locally Without Docker)  
 ```bash
