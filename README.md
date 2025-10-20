@@ -5,7 +5,7 @@ Get clone code:
 git clone --branch Assignment1 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
 ```
 
-## Author Siliang Ma
+## Author: Siliang Ma
    
 - Code to run Assignment 1:  
 ```bash
