@@ -1,7 +1,7 @@
 [project]
-name = "assignment2-cifar10"
+name = "cifar10-fastapi"
 version = "0.1.0"
-description = "CIFAR-10 classifier training with helper_lib"
+description = "CIFAR10 image classifier with FastAPI deployment"
 authors = [
   { name = "Siliang Ma" }
 ]
@@ -10,7 +10,13 @@ requires-python = ">=3.12"
 dependencies = [
   "torch",
   "torchvision",
-  "matplotlib",
+  "fastapi",
+  "uvicorn",
+  "pillow",
+  "python-multipart",
+  "matplotlib"
 ]
 
 [tool.uv]
+# ensures uv picks Python 3.12
+python-preference = "only-managed"
