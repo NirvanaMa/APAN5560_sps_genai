@@ -29,8 +29,8 @@ docker run --rm -p 8000:8000 cifar10-fastapi
 * The interactive result is showned below link:  
 http://localhost:8000/docs
 
-  
-- Code to run Assignment 2:  (Locally Without Docker)  
+
+Code to run Assignment 2:  (Locally Without Docker)  
 ```bash
 cd ~/assignment2
 uv sync
