@@ -8,7 +8,7 @@ Get clone code:
 git clone --branch Assignment2 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
 ```
 
-## Author Siliang Ma
+## Author: Siliang Ma
    
 Code to run Assignment 2:  (By Docker)  
 The model have uploaded and saved in checkpoints/cnn64_cifar10.pth
