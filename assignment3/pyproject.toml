@@ -1,0 +1,14 @@
+[project]
+name = "mnist-gan-api"
+version = "0.1.0"
+authors = [
+  { name = "Siliang Ma" }
+]
+requires-python = ">=3.12"
+dependencies = [
+  "torch",
+  "torchvision",
+  "fastapi",
+  "uvicorn",
+  "pillow"
+]
