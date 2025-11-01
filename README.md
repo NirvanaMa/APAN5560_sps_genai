@@ -1,32 +1,20 @@
-# Assignment 2
-
-This project trains and deploys a Convolutional Neural Network (CNN) on the CIFAR-10 dataset.  
-The model is first trained locally using PyTorch, then packaged with FastAPI in a Docker container for inference.
+# Assignments for all 5560 Genai project
 
 ## Author: Siliang Ma
    
-- Code to run Assignment 2:  (Locally Without Docker)  
-```bash
-cd ~/Desktop/sps_genai/assignment2
-uv sync
-uv run python train_cnn64.py
-uv run python test_cnn64.py
-``` 
-- Code to run Assignment 2:  (By Docker)  
-Since the model have saved in checkpoints/cnn64_cifar10.pth  
+### The code for each assignment is saved in each named branches. Here is the code to clone each assignments:
 
-Build the image:  
+Code for clone Assignment 1:
 ```bash
-docker build -t cifar10-fastapi .
+git clone -b Assignment1 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
 ```
-Run the container and expose port 8000:  
-```bash
-docker run --rm -p 8000:8000 cifar10-fastapi
-```
-
-The interactive result is showned below link:  
-http://localhost:8000/docs
-
-
-
   
+Code for clone Assignment 2:
+```bash
+git clone -b Assignment2 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
+```
+
+Code for clone Assignment 3:
+```bash
+git clone -b Assignment3 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
+```
