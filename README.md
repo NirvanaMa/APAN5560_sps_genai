@@ -1,4 +1,4 @@
-# Assignments for all 5560 Genai project
+# Assignments for all 5560 Genai projects
 
 ## Author: Siliang Ma
    
