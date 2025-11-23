@@ -11,7 +11,7 @@ git clone -b Assignment4 --single-branch https://github.com/NirvanaMa/APAN5560_s
 
 ## Author Siliang Ma
    
-- Code to run Assignment 4:  (Locally Without Docker)  
+### - Code to run Assignment 4:  (Locally Without Docker)  
 
 Training is slow — this step is optional if checkpoints are already included.
 ```bash
@@ -30,9 +30,11 @@ locally run fastapi:
 ```bash
 uv run uvicorn app:app --reload --port 8000
 ```
-  
 
-- Code to run Assignment 4:  (By Docker)
+
+
+### - Code to run Assignment 4:  (By Docker)  
+
 Since the model have saved in checkpoints/cnn64_cifar10.pth  
 
 Build and Run the container and expose port 8000:  
