@@ -1,0 +1,20 @@
+[project]
+name = "assignment4_energy_diffusion"
+version = "0.1.0"
+description = "Assignment 4: Energy-Based Model and Diffusion Model on CIFAR-10 with FastAPI API"
+authors = [
+  { name = "Siliang Ma" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+  "torch",
+  "torchvision",
+  "fastapi",
+  "uvicorn",
+  "pillow",
+  "numpy",
+]
+
+[tool.uv]
+python-preference = "managed"
