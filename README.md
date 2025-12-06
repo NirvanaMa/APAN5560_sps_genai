@@ -6,14 +6,13 @@ This project fine-tunes a GPT-2 language model (openai-community/gpt2) using the
 The fine-tuned model is then deployed as an API using FastAPI, allowing custom-formatted text generation.
 
   
-You may choose any answer format; in this implementation, responses begin with:  
-" Answer: That is a great question. "  <Anwswers in the middle>  " Let me know if you have any other questions."  
+You may choose any answer format; in this implementation, responses will showed as below format:  
+" Answer: That is a great question. "  <Answer>  " Let me know if you have any other questions."  
 
 Code for clone:  
 ```bash
 git clone -b Assignment5 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
 ```
-
 
 ## Author Siliang Ma
    
