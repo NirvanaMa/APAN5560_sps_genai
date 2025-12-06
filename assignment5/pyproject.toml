@@ -1,0 +1,18 @@
+[project]
+name = "assignment5-llm-finetune"
+version = "0.1.0"
+description = "Fine-tuning GPT-2 on SQuAD and serving with FastAPI"
+requires-python = ">=3.10"
+
+# All required libs
+dependencies = [
+    "torch",                        # CPU or MPS backend automatically
+    "transformers>=4.36.0",         # GPT-2 training + generation
+    "datasets>=2.14.0",             # Load SQuAD
+    "fastapi>=0.110.0",             # API
+    "uvicorn>=0.29.0",              # Server
+    "pydantic>=2.6.0",              # Request validation
+    "numpy",
+]
+
+
