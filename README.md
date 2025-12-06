@@ -7,7 +7,7 @@ The fine-tuned model is then deployed as an API using FastAPI, allowing custom-f
 
   
 You may choose any answer format; in this implementation, responses will showed as below format:  
-" Answer: That is a great question. "  /< Answer />  " Let me know if you have any other questions."  
+" Answer: That is a great question. "  < Answer >  " Let me know if you have any other questions."  
 
 Code for clone:  
 ```bash
