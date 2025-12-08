@@ -18,3 +18,13 @@ Code for clone Assignment 3:
 ```bash
 git clone -b Assignment3 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
 ```
+
+Code for clone Assignment 4:
+```bash
+git clone -b Assignment4 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
+```
+
+Code for clone Assignment 5:
+```bash
+git clone -b Assignment5 --single-branch https://github.com/NirvanaMa/APAN5560_sps_genai.git
+```
