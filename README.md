@@ -1,4 +1,4 @@
-# Assignment 5 — Fine-Tuning GPT-2 & Deploying via FastAPI
+# Assignment 5 
 
 Goal:
 
